@@ -57,7 +57,14 @@ const Navbar = () => {
                   <input id="toggle" class="toggle" type="checkbox"></input>
                 </div>
              
-                <div>
+                <div className=" " id="theme-button">
+                  <Link to="#" class="menuBtn">
+                    <span class="lines"></span>
+                  </Link>
+                </div>
+              </div>
+              
+              <div>
                 <a href={process.env.REACT_APP_PROFILE}>  
                 <img
                   className="round-image" 
@@ -67,12 +74,6 @@ const Navbar = () => {
       /></a>
     
                 </div>
-                <div className=" " id="theme-button">
-                  <Link to="#" class="menuBtn">
-                    <span class="lines"></span>
-                  </Link>
-                </div>
-              </div>
             </div>
           </div>
         </div>
