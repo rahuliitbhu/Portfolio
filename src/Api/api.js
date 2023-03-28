@@ -1,8 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 // api url
-const baseUrl = "https://portfolio-api-tau-fawn.vercel.app/api";
-
+//const baseUrl = "https://portfolio-api-tau-fawn.vercel.app/api";
+const baseUrl="https://portfolio-rahuliitbhu.vercel.app/"
 // Heroes' Section
 export const HomeDetails = createApi({
   reducerPath: "HomeDetails",
