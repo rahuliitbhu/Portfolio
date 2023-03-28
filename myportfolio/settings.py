@@ -85,12 +85,27 @@ WSGI_APPLICATION = 'myportfolio.wsgi.application'
 # if os.path.isfile(dotenv_file):
 #     dotenv.load_dotenv(dotenv_file)
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'djongo',
+        'NAME': 'djongo',
+        "CLIENT":{
+     'host':"mongodb://rkstore:naOPvm3kmtlz45By@ac-9dfhueu-shard-00-00.am8q47r.mongodb.net:27017,ac-9dfhueu-shard-00-01.am8q47r.mongodb.net:27017,ac-9dfhueu-shard-00-02.am8q47r.mongodb.net:27017/django?ssl=true&ssl_cert_reqs=CERT_NONE&replicaSet=atlas-b56uhd-shard-0&authSource=admin&retryWrites=true&w=majority",
+    'username':'rkstore',
+    'password':'naOPvm3kmtlz45By'
+        }
+       
     }
 }
+
+
 
 
 # DATABASES = {}
