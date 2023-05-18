@@ -14,13 +14,7 @@ const Navbar = () => {
         <div className="container-fluid  navbur">
           <div className="navi">
             <div className="col-xl-12 d-flex align-items-center lefty">
-              <h5 className="ld-flex mr-auto devman">
-                <img
-                  src="https://code.google.com/images/developers.png"
-                  alt=""
-                />
-                Developer   <span className="blink"> _</span>
-              </h5>
+             
               <nav className="nav-menu  mainMenu">
                 <ul>
                   <li
