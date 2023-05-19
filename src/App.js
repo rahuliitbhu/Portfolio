@@ -47,7 +47,7 @@ function App() {
         <Services />
         <Progress />
         <Projects />
-        <ContactMe/>
+        
         <Email />
         <Footer />
       </BrowserRouter>
