@@ -48,7 +48,7 @@ const Main = () => {
   // toggle light and dark theme
   $(window).on("load", function () {
     $(".toggle").on("click", () => {
-      $("body").toggleClass("light");
+      $("body").toggleClass("toggle");
     });
   });
 
