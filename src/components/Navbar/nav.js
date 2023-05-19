@@ -17,7 +17,8 @@ const Main = () => {
   $(document).ready(function () {
     $(".mainMenu li a").click(function (e) {
       var targetHref = $(this).attr("href");
-
+      console.log(targetHref,"hero")
+      
       $("html, body").animate(
         {
           scrollTop: $(targetHref).offset().top,

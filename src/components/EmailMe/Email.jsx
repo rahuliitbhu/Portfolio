@@ -42,6 +42,7 @@ const Email = (e) => {
   if (isFetching) return "loading";
   return (
     <>
+    <section id="contact">
       <div className="reachme-container">
         <div className="reachme-title2">
           <h2>I Want To Hear From You</h2>
@@ -126,6 +127,7 @@ const Email = (e) => {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 };

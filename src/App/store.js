@@ -5,6 +5,7 @@ import {
   Services,
   Progress,
   Projects,
+  
   Contacts,
   SocialMedia,
   LanguagesIcons,

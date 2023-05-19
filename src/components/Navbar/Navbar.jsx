@@ -38,7 +38,7 @@ const Navbar = () => {
                     <a href="#work">My Work</a>
                   </li>
 
-                  <li data-aos="fade-down" data-aos-duration="1800">
+                  <li data-aos="fade-down" data-aos-duration="600">
                     <a href="#contact">Contact</a>
                   </li>
                 </ul>

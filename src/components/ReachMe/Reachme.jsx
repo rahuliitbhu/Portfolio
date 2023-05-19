@@ -3,7 +3,7 @@ import "./reachme.css";
 const ReachMe = () => {
   return (
     <>
-      <section className="reachme">
+      <section className="reachme" id="reach">
         <div className="reachme-container">
           <div className="reachme-info">
             <h1 className="reachme-title">
